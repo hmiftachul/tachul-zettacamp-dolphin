@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="./styles/style-register.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navbar-list">
+              <li class="navbar-item"><a href="#">Home</a></li>
+              <li class="navbar-item"><a href="about">About Us</a></li>
+              <li class="navbar-item"><a href="profile.html">Profile</a></li>
+              <li class="navbar-item"><a href="song_listing.html">Song Listing</a></li>
+              <li class="navbar-item"><a href="album_preview.html">Album Preview</a></li>
+            </ul>
+          </nav>
+    </header>
+    
+    <div class="container-register">
+        <h1>Register</h1>
+        <form action="profile.html" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label>Type of Account:</label>
+            <div class="account-type">
+                <input type="radio" id="free" name="accountType" value="Free" required>
+                <label for="free">Free</label>
+
+                <input type="radio" id="personal" name="accountType" value="Personal" required>
+                <label for="personal">Personal</label>
+                
+                <!-- Add more account types here if needed -->
+            </div>
+
+            <button type="submit"><a href="/profile.html">Submit</a></button>
+        </form>
+    </div>
+</body>
+</html>

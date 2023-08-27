@@ -1,0 +1,192 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  /* Navbar Start */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #008673;
+  }
+  
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 10px;
+  }
+  
+  .navbar-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navbar-item a:hover {
+    background-color: #01b29c;
+  }
+  /* Navbar End */
+
+  .section-second {
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+  }
+  
+  .section-left {
+    padding-top: 170px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-left: 50px;
+  }
+  
+  .section-right {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 0;
+    padding-left: 50px;
+  }
+  
+  .section-left-about {
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 0;
+    padding-left: 50px;
+  }
+  
+  .section-right-about {
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 0;
+    padding-left: 50px;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 20px;
+    line-height: 123%;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+  }
+  
+  .image-hero {
+    height: 600px;
+    width: auto;
+  }
+  
+  .image-about {
+    height: 500px;
+    width: auto;
+  }
+  
+  .fsize-x {
+    font-size: 42px;
+  }
+  
+  .p-text {
+    font-size: large;
+    line-height: 150%;
+  }
+
+
+  /* Button Start */
+  .button-container {
+    display: flex;
+  }
+  
+  .custom-button {
+    border: none;
+    border-radius: 8px;
+    background-color: #008673;
+    color: #ffffff;
+    padding: 15px 30px;
+    margin: 10px 30px 5px 0px;
+    cursor: pointer;
+    font-size: medium;
+  }
+  
+  .custom-button:hover {
+    background-color: #01b29c;
+  }
+  
+  .outline-button {
+    border: 2px solid #008673;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #008673;
+    padding: 15px 30px;
+    margin: 10px 30px 5px 0px;
+    cursor: pointer;
+    font-size: medium;
+  }
+  
+  .outline-button:hover {
+    background-color: #01b29c;
+    color: #ffffff;
+  }
+  /* Button End */
+
+/* Card Section */
+.pricing-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1 0 250px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.img-card {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.register-btn {
+    background-color: #008080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-btn:hover {
+    background-color: #01b3a0;
+}
+/* Card End */
+
