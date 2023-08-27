@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiple Tables UI</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 40%;
+            margin: 20px auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+
+        .first-table tr:nth-child(2) {
+            background-color: green;
+        }
+
+        .second-table tr:nth-child(3) {
+            background-color: red;
+        }
+
+        .third-table tr:nth-child(4) {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table class="first-table">
+        <h1>Hobby</h1>
+        
+        <tr>
+            <th>Hobby</th>
+        </tr>
+        <tr>
+            <td>Reading</td>
+        </tr>
+        <tr>
+            <td>Football</td>
+        </tr>
+        <tr>
+            <td>Badminton</td>
+        </tr>
+    </table>
+
+    <table class="second-table">
+        <h1>Favorite Movies</h1>
+        <tr>
+            <th>Movie</th>
+        </tr>
+        <tr>
+            <td>Avatar</td>
+        </tr>
+        <tr>
+            <td>Inception</td>
+        </tr>
+        <tr>
+            <td>Avengers</td>
+        </tr>
+    </table>
+
+    <table class="third-table">
+        <h1>Favorite Songs</h1>
+        <tr>
+            <th>Song</th>
+        </tr>
+        <tr>
+            <td>Shape of You</td>
+        </tr>
+        <tr>
+            <td>Bohemian Rhapsody</td>
+        </tr>
+        <tr>
+            <td>Imagine</td>
+        </tr>
+    </table>
+</body>
+</html>

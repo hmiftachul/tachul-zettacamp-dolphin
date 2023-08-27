@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tacode</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" style="padding-left: 50px;">
+        <ul class="navbar-list">
+          <li class="navbar-item" style="font-size: 32px; font-weight: 600">
+            <a href="index.html">Tacode</a>
+          </li>
+        </ul>
+        <ul class="navbar-list" style="padding-right: 50px;">
+          <li class="navbar-item"><a href="about-me.html">About</a></li>
+          <li class="navbar-item">
+            <a href="shopping-list.html">Shopping List</a>
+          </li>
+          <li class="navbar-item">
+            <a href="add-item.html">Add Item</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact-me.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <main class="content">
+        <h2 class="fsize-x">Contact Me</h2>
+        <p>Have a criticism or suggestion? Let me know!</p>
+        
+        <form action="" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button class="btn-contact" type="submit">Send</button>
+        </form>
+    </main>
+
+
+    <footer style="text-align: center;">
+      <p>&copy; 2023 Tacode. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

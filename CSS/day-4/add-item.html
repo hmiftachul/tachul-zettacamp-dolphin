@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tacode</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" style="padding-left: 50px">
+        <ul class="navbar-list">
+          <li class="navbar-item" style="font-size: 32px; font-weight: 600">
+            <a href="index.html">Tacode</a>
+          </li>
+        </ul>
+        <ul class="navbar-list" style="padding-right: 50px">
+          <li class="navbar-item"><a href="about-me.html">About</a></li>
+          <li class="navbar-item">
+            <a href="shopping-list.html">Shopping List</a>
+          </li>
+          <li class="navbar-item">
+            <a href="add-item.html">Add Item</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact-me.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container-add">
+      <h1>Add Item</h1>
+      <form id="itemForm">
+        <label class="label-add" for="itemName">Product Name:</label>
+        <input
+          class="input-add"
+          type="text"
+          id="itemName"
+          name="itemName"
+          required
+        />
+
+        <label class="label-add" for="itemDescription">Description:</label>
+        <textarea
+          class="textarea-add"
+          id="itemDescription"
+          name="itemDescription"
+          rows="4"
+          required
+        ></textarea>
+
+        <label class="label-add" for="itemPrice">Price:</label>
+        <input
+          class="input-add"
+          type="number"
+          id="itemPrice"
+          name="itemPrice"
+          min="0"
+          step="0.01"
+          required
+        />
+
+        <button class="button-add" type="submit">Add Product</button>
+      </form>
+      <h2>Item List</h2>
+      <ul style="list-style: none; padding: 0">
+        <li>
+          <div class="item">
+            <div class="image">
+              <img
+                src="https://class.buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20html5%20dasar%20buildwith%20angga.png"
+                alt="Sample Image"
+              />
+            </div>
+            <div class="details">
+              <strong>HTML 5</strong>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Price: $15.99</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="image">
+              <img
+                src="https://class.buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20html5%20dasar%20buildwith%20angga.png"
+                alt="Sample Image"
+              />
+            </div>
+            <div class="details">
+              <strong>HTML 5</strong>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Price: $15.99</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="image">
+              <img
+                src="https://class.buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20html5%20dasar%20buildwith%20angga.png"
+                alt="Sample Image"
+              />
+            </div>
+            <div class="details">
+              <strong>HTML 5</strong>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Price: $15.99</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <footer style="text-align: center">
+      <p>&copy; 2023 Tacode. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
